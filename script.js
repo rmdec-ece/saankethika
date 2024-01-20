@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll('a');
+    const smoothScrollLinks = document.querySelectorAll('.smooth-scroll');
 
-    links.forEach(link => {
+    smoothScrollLinks.forEach(link => {
         link.addEventListener('click', smoothScroll);
     });
 
